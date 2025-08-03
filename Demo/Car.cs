@@ -31,6 +31,15 @@ namespace Demo
             this.id = id;
             this.model = model;
             this.speed = speed;
+            Console.WriteLine("1st ctor");
+        }
+        public Car(int id, string? model):this(id,model,290)
+        {
+            Console.WriteLine("2nd ctor");
+        }
+        public Car(int id) : this(id,"Audi", 190)
+        {
+            Console.WriteLine("3rd ctor");
         }
         #endregion
     }
