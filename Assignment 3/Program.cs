@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Q1
+            //Employees employees = new Employees();
+            //employees.Name = "Youssef";
+            //employees.ID = 1;
+            //employees.Gender = 'M';
+            //employees.HireDate= DateTime.Now;
+            //employees.Security = SecurityLevel.Developer;
+            //employees.Salary = 20000;
+            //Console.WriteLine(employees);
+            #endregion
         }
     }
 }
