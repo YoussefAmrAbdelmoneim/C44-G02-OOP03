@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using Demo.Inheritance;
+
+namespace Demo
 {
     internal class Program
     {
@@ -24,6 +26,22 @@
             //Console.WriteLine(C2);
             //Car C3 = new Car(30,"BMW",250);
             //Console.WriteLine(C3);
+            #endregion
+            #region Inheritance
+            //Parent parent = new Parent(1,2);
+            //parent.X = 10;
+            //parent.Y = 20;
+            //Console.WriteLine(parent);
+            //Console.WriteLine(parent.Product());
+            //parent.MyFun();
+
+            //Child Child = new Child(1, 2,3);
+            //Child.X = 10;
+            //Child.Y = 20;
+            //Child.Z = 30;
+            //Console.WriteLine(Child);
+            //Console.WriteLine(Child.Product());
+            //Child.MyFun();
             #endregion
         }
     }
