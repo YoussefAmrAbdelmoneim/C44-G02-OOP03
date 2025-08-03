@@ -14,6 +14,12 @@
             //employees.Salary = 20000;
             //Console.WriteLine(employees);
             #endregion
+            #region Q2
+            //HiringDate hiringDate = new HiringDate();
+            //hiringDate.Day = 1;
+            //hiringDate.Month = 7;
+            //hiringDate.Year = 2025;
+            #endregion
         }
     }
 }
