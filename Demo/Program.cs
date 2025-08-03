@@ -43,6 +43,15 @@ namespace Demo
             //Console.WriteLine(Child.Product());
             //Child.MyFun();
             #endregion
+            #region Access-Modifiers
+            //TypeA typeA = new TypeA();
+            //typeA.A = 1; //invalid
+            //typeA.B = 2; //valid
+            //typeA.C = 3; //valid
+            //typeA.X = 4; //invalid
+            //typeA.Y = 5; //invalid
+            //typeA.Z = 6; //valid
+            #endregion
         }
     }
 }
